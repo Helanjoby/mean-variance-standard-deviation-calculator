@@ -1,12 +1,5 @@
-from time_series_visualizer import draw_line_plot, draw_bar_plot, draw_box_plot
+from sea_level_predictor import draw_plot
 
-# Generate and save the line plot
-draw_line_plot()
-
-# Generate and save the bar plot
-draw_bar_plot()
-
-# Generate and save the box plots
-draw_box_plot()
-
-print("Plots created successfully!")
+# Generate the plot
+draw_plot()
+print("Plot created successfully!")
